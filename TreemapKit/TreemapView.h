@@ -35,6 +35,7 @@
 
 - (NSArray *)valuesForTreemapView:(TreemapView *)treemapView;
 - (TreemapViewCell *)treemapView:(TreemapView *)treemapView cellForIndex:(NSInteger)index forRect:(CGRect)rect;
+- (id)treemapView:(TreemapView *)treemapView objectForIndex:(NSInteger)index;
 
 @optional
 
