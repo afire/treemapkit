@@ -17,7 +17,7 @@
         else {
             TreemapViewCell *cell = [self.subviews objectAtIndex:index];
             cell.frame = rect;
-            if ([delegate respondsToSelector:@selector(treemapView:updateCell:forIndex:forRect:)])
+            if (delegate && [delegate respondsToSelector:@selector(treemapView:updateCell:forIndex:forRect:)])
                 [delegate treemapView:self updateCell:cell forIndex:index forRect:rect];
             [cell layoutSubviews];
         }

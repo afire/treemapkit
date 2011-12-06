@@ -406,4 +406,9 @@
     NSLog(@"meh");
 }
 
+- (void)treemapView:(TreemapView *)treemapView updateCell:(TreemapViewCell *)cell forIndex:(NSInteger)index forRect:(CGRect)rect
+{
+    NSLog(@"meh");
+}
+
 @end

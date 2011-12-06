@@ -3,8 +3,8 @@
 @protocol TreemapViewCellDelegate;
 
 @interface TreemapViewCell : UIControl {
-    UILabel *valueLabel;
-    UILabel *textLabel;
+    UILabel *_valueLabel;
+    UILabel *_textLabel;
 
     NSInteger index;
 
